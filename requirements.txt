@@ -1,0 +1,8 @@
+accelerate== 0.22.0
+transformers== 4.33.0
+ftfy==6.1.1
+tensorboard==2.14.0
+Jinja2
+gradio==4.37.2
+numpy==1.25.2
+opencv-python
