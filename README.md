@@ -8,7 +8,7 @@
 
 [![Project page](https://img.shields.io/badge/Project-Page-brightgreen)](https://cuixing100876.github.io/instastyle.github.io/)
 [![paper](https://img.shields.io/badge/Paper-ECCV-brightgreen)](https://arxiv.org/abs/2311.15040)
-[![arXiv](https://img.shields.io/badge/ArXiv-2402.02583-brightgreen)](https://arxiv.org/abs/2311.15040)
+[![arXiv](https://img.shields.io/badge/ArXiv-2311.15040-brightgreen)](https://arxiv.org/abs/2311.15040)
 
 ---
 

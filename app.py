@@ -125,8 +125,7 @@ with demo:
             obj_init = gr.Textbox(label="Object",value='house')
             pretrained_model_name_or_path = gr.Textbox(label="Pretrained Model Name or Path",value="/home/vcis8/Userlist/cuixing3/sd-ckpt/sd")
             obj_tars = gr.Textbox(label="Original generation objects",
-                                  value="cat, lighthouse")
-            # cat, lighthouse, goldfish,table lamp, tram, tower, cup, desk, chair, pot
+                                  value="cat, lighthouse, goldfish,table lamp, tram, tower, cup, desk, chair, pot")
             # cat, lighthouse, volcano, goldfish,table lamp, tram, palace, tower, cup, desk, chair, pot, laptop, door,  car
 
             with gr.Accordion(label="Initial Stylized Image Generation Options",open=False):
@@ -176,7 +175,7 @@ with demo:
                     dataloader_num_workers=gr.Number(label="Number workers", value=2, step=1,minimum=0,maximum=10)
                     train_output_root = gr.Textbox(label="Checkpoint output", value="./train_output/")
 
-                    max_train_steps = gr.Number(label="Max train steps", value=100, step=1, minimum=100, maximum=2000)
+                    max_train_steps = gr.Number(label="Max train steps", value=500, step=1, minimum=100, maximum=2000)
                     train_batch_size = gr.Number(label="Train batch size", value=2, step=1)
                     gradient_accumulation_steps = gr.Number(label="Gradient accumulation steps", value=1, step=1)
                     checkpointing_steps = gr.Number(label="Save checkpointing interval", value=250, step=1)
