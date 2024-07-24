@@ -17,7 +17,7 @@
 ## 🚩 **New Features/Updates**
 - **TODO** Release **InstaStyle** with StableDiffusion v2.1.
 - [2024/07/11] Release the code of **InstaStyle**.
-- [2024/07/02] **InstaStyle** is accepted by 🌈 ECCV 2024.
+- [2024/07/02] **InstaStyle** is accepted by ECCV 2024.
 
 ---
 
